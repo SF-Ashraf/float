@@ -1,0 +1,36 @@
+.our-content {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.our-content .txt-h {
+  font-size: 2rem;
+}
+
+.our-content p {
+  margin-top: 1rem;
+}
+
+.cards {
+  padding-inline: 4rem;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.card {
+  margin-top: 1rem;
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.card:nth-child(2) {
+
+  margin: 0 1.5rem;
+}
+
+.cards img {
+  border-radius: 1rem;
+}

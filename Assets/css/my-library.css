@@ -1,0 +1,44 @@
+:root {
+  --bg-btn-1: #8e7652;
+  --color-btn-1: #fff;
+}
+
+.flt-r {
+  float: right;
+}
+
+.flt-l {
+  float: left;
+}
+
+.dp-inline {
+  display: inline-block;
+}
+
+.test-br {
+  border: 2px solid tomato;
+}
+
+.test-bg {
+  background-color: teal;
+}
+
+.btn-1 {
+  background-color: var(--bg-btn-1);
+}
+
+.btn-1,
+.btn-2 {
+  display: inline-block;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+
+  color: var(--color-btn-1);
+  font-size: 1.2rem;
+}
+
+.btn-2 {
+  border: 1px solid;
+  color: var(--color-btn-1);
+}
